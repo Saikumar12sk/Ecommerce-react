@@ -1,7 +1,7 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import { toast } from 'react-toastify'; // Import toast from react-toastify
-import '../styles/ProductItem.css'; // Optional: CSS for product card
+import { toast } from 'react-toastify'; 
+import '../styles/ProductItem.css'; 
 
 function ProductItem({ product }) {
   const { addToCart } = useCart();
