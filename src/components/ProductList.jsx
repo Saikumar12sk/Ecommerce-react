@@ -3,7 +3,7 @@ import ProductItem from './ProductItem';
 import { fetchProducts } from '../services/api';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
-import '../styles/ProductList.css'; // Styling
+import '../styles/ProductList.css'; 
 
 function ProductList() {
   const [products, setProducts] = useState([]);

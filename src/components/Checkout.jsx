@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
-import '../styles/Checkout.css'; // Optional: Styling
+import '../styles/Checkout.css'; 
 
 function Checkout() {
   const { cartItems } = useCart();
